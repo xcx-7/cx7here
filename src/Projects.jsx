@@ -19,7 +19,7 @@ const projectData = [
   },
   {
     title: "Strange Portfolio",
-    description: "Idk what i created this, lol. I just tried to create something unique.",
+    description: "Idk what i created, lol. I just tried to create something unique.",
     link: "https://xcx-7.github.io/cx-7/",
     image: img3
   },
