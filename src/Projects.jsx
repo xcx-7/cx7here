@@ -1,23 +1,27 @@
 import React from 'react';
+import img1 from "./assets/1.png"
+import img2 from "./assets/2.png"
+import img3 from "./assets/3.png"
+
 
 const projectData = [
   {
-    title: "Project One",
-    description: "A brief description of Project One.",
-    link: "https://projectone.com",
-    image: "https://via.placeholder.com/300x200.png?text=Project+One"
+    title: "Chat App",
+    description: "I created this using MERN Stack",
+    link: "https://kona-a8bn.onrender.com/",
+    image: img1
   },
   {
-    title: "Project Two",
-    description: "A brief description of Project Two.",
-    link: "https://projecttwo.com",
-    image: "https://via.placeholder.com/300x200.png?text=Project+Two"
+    title: "Staganography Tool",
+    description: "using this u can hide text in a text file, image in image, and video in a video🙃",
+    link: "https://steganographyliv.netlify.app/",
+    image: img2
   },
   {
-    title: "Project Three",
-    description: "A brief description of Project Three.",
-    link: "https://projectthree.com",
-    image: "https://via.placeholder.com/300x200.png?text=Project+Three"
+    title: "Strange Portfolio",
+    description: "Idk what i created this, lol. I just tried to create something unique.",
+    link: "https://xcx-7.github.io/cx-7/",
+    image: img3
   },
   // Add more projects as needed...
 ];
