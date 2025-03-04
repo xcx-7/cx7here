@@ -23,6 +23,12 @@ const projectData = [
     link: "https://xcx-7.github.io/cx-7/",
     image: img3
   },
+  {
+    title: "Tetris",
+    description: "this game was created in vanila js",
+    link: "https://tetriscx7.netlify.app/",
+    image: img3
+  },
   // Add more projects as needed...
 ];
 
