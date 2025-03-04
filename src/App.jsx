@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
@@ -16,7 +17,7 @@ function App() {
     <Router>
       <div className="app">
         <header className="header">
-          <h1 className="logo">My Portfolio</h1>
+          <h1 className="logo">CX-7</h1>
           <button className="hamburger" onClick={toggleNav}>
             ☰
           </button>
@@ -29,10 +30,10 @@ function App() {
         </header>
         <main className="content">
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/about" element={<About />} />
-            <Route exact path="/projects" element={<Projects />} />
-            <Route exact path="/contact" element={<Contact />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
       </div>

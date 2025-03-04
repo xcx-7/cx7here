@@ -14,9 +14,9 @@ function Contact() {
   return (
     <div className="page contact-page">
       <h1>Contact Me</h1>
-      <p>Email: <a href="mailto:myemail@example.com">myemail@example.com</a></p>
+      <p>Email: <a href="cxe-7@proton.me">cxe-7@proton.me</a></p>
       <div className="social-icons">
-        <a href="https://discord.com" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
+        <a href="https://discord.com/invite/yKJhF5HSrm" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
         <a href="https://mastodon.social" target="_blank" rel="noopener noreferrer"><FaMastodon /></a>
         <a href="https://bsky.app" target="_blank" rel="noopener noreferrer"><FaLink /></a> {/* BSky placeholder */} 
